@@ -1,0 +1,49 @@
+# ---- 通用 ----
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- C/C++ 编译产物 ----
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.axf
+*.s19
+*.out
+build/
+Debug/
+Release/
+
+# ---- Keil MDK ----
+JLinkLog.txt
+JLinkSettings.ini
+*.uvguix.*
+*.scvd
+!*.uvprojx
+!*.uvoptx
+RTE/
+Listings/
+Objects/
+
+# ---- 其他 ----
+.env
+node_modules/
+__pycache__/
+*.pyc
